@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Noto+Sans&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        *::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        
+        *::-webkit-scrollbar-thumb {
+            background: #bbb;
+            border-radius: 4px;
+        }
+        
+        *::-webkit-scrollbar-thumb:active {
+            background: #aaa;
+        }
+        
+        *::-webkit-scrollbar-track {
+            background: #e7e7e7;
+        }
+        
+        body {
+            margin: 0;
+            background: #f1f1f1;
+        }
+        
+        .site-header {
+            position: sticky;
+            width: 100%;
+            height: 100vh;
+        }
+        
+        .wrap-site-header {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .name {
+            margin: 8px 0;
+        }
+        
+        .name-link {
+            color: #333;
+            text-decoration: none;
+        }
+        
+        .description {
+            margin: auto;
+            width: 110px;
+        }
+        
+        .description:after {
+            content: '';
+            clear: both;
+        }
+        
+        .icon {
+            float: left;
+            margin: 2px 0 0;
+        }
+        
+        .txt {
+            color: #333;
+            text-decoration: none;
+        }
+        
+        .howto {
+            position: sticky;
+            top: 0;
+            width: 100%;
+            height: 300px;
+        }
+        
+        .use {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #fff;
+            color: #333;
+            padding: 20px 35px;
+            border-radius: 10px;
+            font-family: 'Noto Sans', sans-serif;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .name-link {
+                font-size: 44px;
+            }
+            .use {
+                font-size: 16pt;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <header class="site-header section">
+            <div class="wrap-site-header">
+                <h1 class="name"><a href="https://github.com/plantree115/plantree115.github.io" class="name-link">Plantree115</a></h1>
+                <a href="https://twitter.com/midre_" class="txt">
+                    <div class="description">
+                        <ion-icon name="logo-twitter" size="small" class="icon"></ion-icon>
+                        <p>@midre_</p>
+                    </div>
+                </a>
+            </div>
+        </header>
+        <div class="howto section">
+            <pre class="use">https://plantree115.github.io/{file_name}</pre>
+        </div>
+    </div>
+</body>
+</html>
