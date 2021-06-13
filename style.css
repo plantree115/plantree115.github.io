@@ -10,6 +10,7 @@ body{
 margin:0;
 font-size:1.6rem;
 font-family:sans-serif;
+color:#333;
 }
 
 
@@ -98,6 +99,8 @@ text-align:center;
 
 .sec1-myicon-sry{
 font-size:1.1rem;
+display:block;
+width:100%;
 }
 
 .sec1-mydescription{
@@ -109,7 +112,7 @@ font-size:2rem;
 margin:0 0 16px;
 }
 
-.sec1-description-sry{
+.sec1-mydescription-sry{
 font-size:1.1rem;
 }
 
