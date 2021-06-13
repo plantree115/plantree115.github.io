@@ -25,6 +25,10 @@ background:#fff;
 padding:10px 0;
 }
 
+html{
+padding-top:100px;
+}
+
 .main-header-inner{
 max-width:1000px;
 width:92%;
@@ -49,6 +53,7 @@ padding:0;
 text-decoration:none;
 color:currentColor;
 padding:3px 1%;
+display:block;
 }
 
 
