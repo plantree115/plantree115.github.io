@@ -1,1 +1,200 @@
+*,*:before,*:after{
+box-sizing:border-box;
+}
+
+html{
+font-size:62.5%;
+}
+
+body{
+margin:0;
+font-size:1.6rem;
+}
+
+
+/*################
+main-header
+################*/
+.main-header{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+background:#fff;
+padding:10px 0;
+}
+
+.main-header-inner{
+max-width:1000px;
+width:92%;
+margin:0 auto;
+}
+
+.main-header-ttl{
+font-size:2.4rem;
+text-decoration:none;
+color:currentColor;
+}
+
+.main-header-nav{
+display:flex;
+align-items:center;
+list-style:none;
+margin:0;
+padding:0;
+}
+
+.main-header-nav a{
+text-decoration:none;
+color:currentColor;
+padding:3px 1%;
+}
+
+
+/*################
+hero section
+################*/
+.sec-hero-content{
+height:250px;
+background:url() center/cover #f1f1f1;
+}
+
+
+/*################
+sec1
+################*/
+.sec-outer-sec1{
+padding:10% 0;
+}
+
+.sec1-content{
+max-width:1000px;
+width:92%;
+margin:0 auto;
+}
+
+.sec1-h2{
+margin:0 auto 30px;
+font-size:2.4rem;
+text-align:center;
+}
+
+.sec1-box1{
+display:flex;
+flex-wrap:wrap;
+justify-content:space-between;
+}
+
+.sec1-myicon{
+width:10%;
+text-align:center;
+}
+
+.sec1-myicon-sry{
+font-size:1.1rem;
+}
+
+.sec1-mydescription{
+width:85%;
+}
+
+.sec1-myname{
+font-size:2rem;
+margin:0 0 16px;
+}
+
+.sec1-description-sry{
+font-size:1.1rem;
+}
+
+
+/*################
+sec2
+################*/
+.sec-outer-sec2{
+padding:10% 0;
+}
+
+.sec2-h2{
+margin:0 auto 30px;
+font-size:2.4rem;
+text-align:center;
+}
+
+.sec2-item-img{
+border-top:solid 1px #333;
+border-bottom:solid 1px #333;
+height:250px;
+background-color#f1f1f1;
+}
+
+.sec2-item-txt{
+max-width:1000px;
+width:92%;
+margin:0 auto;
+}
+
+.sec2-item-h3{
+font-size:2rem;
+margin:0 0 16px;
+}
+
+
+/*################
+contact sec
+################*/
+.sec-outer-contact{
+padding:10% 0;
+}
+
+.sec-contact-content{
+max-width:1000px;
+width:92%;
+margin:0 auto;
+}
+
+.sec-contact-h2{
+margin:0 auto 30px;
+font-size:2.4rem;
+text-align:center;
+}
+
+.contact-action-btn{
+color:#fff;
+background:#333;
+padding:1% 10px;
+max-width:300px;
+margin:0 auto;
+}
+
+.contact-action-support{
+display:block;
+text-align:center;
+font-size:1.1rem;
+}
+
+
+/*################
+responsive menu
+################*/
+.res-nav-toggle-btn{
+display:none;
+}
+
+
+
+@media all and (max-width:800px){
+
+.sec1-myicon{
+width:100%;
+}
+
+.sec1-mydescription{
+width:100%;
+}
+
+}
+
+
+
 
