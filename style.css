@@ -53,7 +53,7 @@ padding:0;
 .main-header-nav a{
 text-decoration:none;
 color:currentColor;
-padding:3px 1%;
+padding:0 15px;
 display:block;
 }
 
@@ -171,7 +171,7 @@ text-align:center;
 .contact-action-btn{
 color:#fff;
 background:#333;
-padding:1% 10px;
+padding:15px 10px;
 max-width:300px;
 margin:0 auto;
 display:block;
